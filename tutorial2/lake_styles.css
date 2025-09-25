@@ -1,8 +1,15 @@
 ﻿@charset "utf-8";
 @font-face{
-    font-family: verdana;
+    font-family: cac_champagne;
     src: url("cac_champagne.woff") format("woff"),
          url("cac_champagne.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family: DobkinPlain;
+    src: url("DobkinPlain.woff") format("woff"),
+        url("DobkinPlain.ttf") format("truetype");
     font-weight: normal;
     font-style: normal;
 }
@@ -19,7 +26,5 @@
 
 */
 
-body{
-    font-family: verdana, Arial, sans-serif;
-}
+
 
