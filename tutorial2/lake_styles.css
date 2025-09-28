@@ -1,30 +1,199 @@
 ﻿@charset "utf-8";
-@font-face{
+@font-face {
     font-family: cac_champagne;
     src: url("cac_champagne.woff") format("woff"),
-         url("cac_champagne.ttf") format("truetype");
+    url("cac_champagne.ttf") format("truetype");
     font-weight: normal;
     font-style: normal;
 }
-@font-face{
+
+@font-face {
     font-family: DobkinPlain;
     src: url("DobkinPlain.woff") format("woff"),
-        url("DobkinPlain.ttf") format("truetype");
+    url("DobkinPlain.ttf") format("truetype");
     font-weight: normal;
     font-style: normal;
 }
+
 /*
    New Perspectives on HTML5 and CSS3, 7th Edition
    Tutorial 2
    Case Problem 4
-   
-   Great Lakescape Lodge Style Sheet
-   Author: 
-   Date:   
-   
-   Filename: lake_styles.css
 
+   Great Lakescape Lodge Style Sheet
+   Author:
+   Date:
+
+   Filename: lake_styles.css
 */
+
+.sBar {
+    font-family: "cac_champagne", Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+#welcome {
+    font-family: "cac_champagne", Helvetica, sans-serif;
+    font-size: 60px;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 0;
+}
+
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: olive;
+    z-index: -2;
+}
+
+.up-box {
+    position: relative;
+    background-color: rebeccapurple;
+    padding: 10px;
+    float: right;
+    color: #fff;
+    z-index: 1;
+}
+
+.up-box a {
+    color: #d8bfd8;
+    text-decoration: none;
+}
+
+.right-box {
+    position: relative;
+    background-color: #5c2a5a;
+    color: #d8bfd8;
+    width: 30%;
+    padding: 40px;
+    min-height: 1300px;
+    z-index: 1;
+}
+
+.right-box a {
+    color: #d8bfd8;
+    text-decoration: none;
+}
+
+.right-box a:hover {
+    color: #fff;
+}
+
+
+.right-box blockquote {
+    color: #d87093;
+    font-style: italic;
+    margin-top: 30px;
+    font-size: 16px;
+    line-height: 1.6;
+    font-family:  microsoft yahei, sans-serif;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.right-box .sBar {
+    color: #fff;
+    font-family: "cac_champagne", Helvetica, sans-serif;
+    font-size: 28px;
+    margin: 20px 0 10px 0;
+}
+
+
+.left-box {
+    position: relative;
+    background-color: black;
+    width: 70%;
+    min-height: 1300px;
+    color: #fff;
+    z-index: 1;
+}
+
+
+.content-wrapper {
+    padding: 0 20px;
+}
+
+
+.under-box {
+    position: relative;
+    background-color: gray;
+    min-height: 10px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    z-index: 1;
+}
+
+.inner-box1 {
+    background-color: pink;
+}
+
+.inner-box2 {
+    background-color: sandybrown;
+}
+
+.mid {
+    display: block;
+    text-align: center;
+}
+
+
+.notes-events {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+
+.notes-events aside {
+    flex: 1;
+    padding: 15px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+
+.inner-box1 {
+    background-color: #e9967a;
+    color: #fff;
+}
+
+.inner-box1 li {
+    margin: 8px 0;
+}
+
+.inner-box1 a {
+    color: lightpink;
+}
+
+
+.inner-box2 {
+    background-color: #d2b48c;
+    color: #fff;
+}
+
+.inner-box2 strong {
+    display: block;
+}
+
+.mid {
+    text-align: center;
+    margin-bottom: 10px;
+}
 
 
 
